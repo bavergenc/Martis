@@ -1,6 +1,7 @@
 public class while1 {
     public static void main(String[] args) {
         java.util.Scanner kb = new java.util.Scanner(System.in);
+        System.out.println("Change");
 
         int n;
         System.out.println("bir sayı giriniz :");
