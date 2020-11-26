@@ -9,9 +9,10 @@ public class deneme3 {
 
         int sayac = 0;
 
-        for(int i = 0; i < a.length(); sayac++ )
+        for(int i = 0; i < a.length();
+            sayac++)
             if(a.charAt(i) == ' ') sayac++;
-        System.out.println("kelime sayısı = " + sayac+1);
+        System.out.println("kelime sayısı = " + sayac+ 1);
 
 
 

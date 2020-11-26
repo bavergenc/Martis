@@ -20,8 +20,6 @@ public class newdeneme {
         int sayac = 0;
         while (true) {
             try {
-
-
                 if (m[x + 1][y] == 1) {
                     sayac++;
                     x++;
@@ -48,5 +46,4 @@ public class newdeneme {
             }
         }
     }
-}
 }

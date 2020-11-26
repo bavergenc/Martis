@@ -14,7 +14,7 @@ public class matris2 {
                 for (int j = 0; j < 5; j++) {
 
 
-                    int sayi = (int) (Math.random() * 10);
+                    int sayi = random.nextInt(3);
                     m[i][j] = sayi;
                 }
             }

@@ -1,31 +1,31 @@
-public class boolean1 {
+public class Boolean1 {
     public static void main(String[] args) {
 
-        boolean passeddoor = true;
-        boolean misseddoor  = false;
-        boolean passedalldoors = true;
+        boolean passedDoor = true;
+        boolean missedDoor  = false;
+        boolean passedAllDoors = true;
         int doorcount = 0;
 
-        if(misseddoor){
+        if(missedDoor){
             System.out.println("we passed the first door");
             doorcount = doorcount + 1;
         }
 
-        if(passeddoor){
+        if(passedDoor){
             System.out.println("we passed the second door");
             doorcount = doorcount + 1;
         }
 
-        if(passeddoor){
+        if(passedDoor){
             System.out.println("we passed the third door");
             doorcount = doorcount + 1;
         }
 
         if(doorcount == 3){
-            passedalldoors = true;
+            passedAllDoors = true;
         }
 
-        if(passedalldoors){
+        if(passedAllDoors){
             System.out.println("congratualions you won the program");
         }
     }
